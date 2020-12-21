@@ -1,0 +1,332 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<script type="module" src="https://unpkg.com/@deckdeckgo/drag-resize-rotate@latest/dist/deckdeckgo-drag-resize-rotate/deckdeckgo-drag-resize-rotate.esm.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/interactjs@1.10.1/dist/interact.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="tut/stylepop.css">
+    <script src="tut/jquery-1.7.2.min.js"></script>
+    <script src="tut/scriptSLD.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="creating.js"></script>
+    <script src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+        
+    </head>
+
+<body>
+    <div class="popup" id="popup-1">
+		<div class="overlay"></div>
+		<div class="content">
+		  <div class="close-btn" onclick="togglePopup()">&times;</div>
+		  <div id="slider-wrap">
+			<div id="slider">
+				<div class="slide"><h1>Тише тише, эта штука обязана научить тебя пользоваться данным конструктором гомиксов!Окей погнали</h1></div>
+				<div class="slide"><img class="tutgif" src="tut/1.gif" width="700" height="456"><p>Для начала выбери фон из блока с фонами. Затем,расположи его как захочешь, но все мы понимаем если ты приличный человек, то сделаешь 4 блока</p></div>
+				<div class="slide"><img class="tutgif" src="tut/2.gif" width="500" height="300"><p id="bigP">Ты можешь удалить элемент двойным кликом по нему,можешь поворачивать удерживая за кружок,а можешь растягивать и изменять размер, и запомни вот что: каждый новый объект будет накалдываться поверх старого...Что ж, пора создать забавного птенца! Выбери pipis'ов и расположи их внутри блоков.Выбери шапку/предмет из соседнего раздела если хочешь их добавить.</p></div>
+				<div class="slide"><img class="tutgif" src="tut/3.gif" width="500" height="300"><p>Всем давно известно что pipis умеет говорить. Выбери рамку для текста и помести тому цыпленку, что собирается сказать, а в разделе текста ты можешь выбрать цвет и размер шрифта, на смотри!</p></div>
+				<div class="slide"><img src="tut/4.png" width="119" height="478"><p>Ты можешь добавить различные эффекты.</p></div>
+				<div class="slide"><img src="tut/5.gif" width="570" height="204"><p>А как люди узнают что это сделал ты? Не волнуйся, просто распишись под гомиксом. Как как тебя зовут? Алё-шень-ка? ...А ты нечаяно ошибся тебя зовут не Алёшенька а Подрочи!? Не беда, ты можешь исправить свое имя нажав на "КАК ТЕБЯ ЗОВУТ"</p></div>
+				<div class="slide"><img class="tutph" src="tut/6.png" width="810" height="936"><p class="lastp">А у меня вот такая получилась новогодняя история в гомиксе. Ты можешь лучше? Не сомневаюсь. Самое время заливать в альбом. А если ты не въехал даже после этого туториала, то сделай жалкую срань, мы все равно будем тебе рады! ПОКА-ПОКА, с парздником!  </p></div>
+			</div>
+		</div>
+		</div>
+    </div>
+    
+  <div id="gomiks">
+    <div style="margin-left: -407px" id="captured">
+    <div id="supreme" class="all">
+        <div class="imya" onclick="myFunctionDel()">dsfdsfds</div>    
+ </div>  
+</div>
+</div>
+    
+<div id="menu">
+    <button id="ulibochky" onclick="cptr()" id="capture">УЛЫБОЧКУ</button>
+    <button onclick="togglePopup()" id="ulibochky1">#ЯНЕТУПОЙ</button>
+
+ <div id="buttons1">  
+    <div class="btn" id="pipis1" onclick = "pipis1()"></div>  
+     <div class="btn" id="pipis2" onclick = "pipis2()"></div>
+     <div class="btn" id="pipis3" onclick = "pipis3()"></div>
+     
+     <div class="btn" id="pipis4" onclick = "pipis4()"></div>  
+     <div class="btn" id="pipis5" onclick = "pipis5()"></div>
+     <div class="btn" id="pipis6" onclick = "pipis6()"></div>
+     <div class="btn" id="pipis7" onclick = "pipis7()"></div>  
+     <div class="btn" id="pipis8" onclick = "pipis8()"></div>
+     <div class="btn" id="pipis9" onclick = "pipis9()"></div>
+     <div class="btn" id="pipis10" onclick = "pipis10()"></div>  
+     <div class="btn" id="pipis11" onclick = "pipis11()"></div>
+     <div class="btn" id="pipis12" onclick = "pipis12()"></div>
+     <div class="btn" id="pipis13" onclick = "pipis13()"></div>  
+     <div class="btn" id="pipis14" onclick = "pipis14()"></div>
+     <div class="btn" id="pipis15" onclick = "pipis15()"></div>
+     <div class="btn" id="pipis16" onclick = "pipis16()"></div>  
+     <div class="btn" id="pipis17" onclick = "pipis17()"></div>
+     <div class="btn" id="pipis18" onclick = "pipis18()"></div>
+ </div>  
+ <div id="buttons3">   
+     <div class="btn" id="shp1" onclick = "shapk1()"></div>
+     <div class="btn" id="shp2" onclick = "shapk2()"></div>
+     <div class="btn" id="shp3" onclick = "shapk3()"></div>
+      
+     <div class="btn" id="shp4" onclick = "shapk4()"></div>
+     <div class="btn" id="shp5" onclick = "shapk5()"></div>
+     <div class="btn" id="shp6" onclick = "shapk6()"></div>
+     <div class="btn" id="shp7" onclick = "shapk7()"></div>
+     <div class="btn" id="shp8" onclick = "shapk8()"></div>
+     <div class="btn" id="shp9" onclick = "shapk9()"></div>
+     <div class="btn" id="shp10" onclick = "shapk10()"></div>
+     <div class="btn" id="pred1" onclick = "pred1()"></div>
+     <div class="btn" id="pred2" onclick = "pred2()"></div>
+     <div class="btn" id="pred3" onclick = "pred3()"></div>
+     <div class="btn" id="pred4" onclick = "pred4()"></div>
+     <div class="btn" id="pred5" onclick = "pred5()"></div>
+     <div class="btn" id="pred6" onclick = "pred6()"></div>
+     <div class="btn" id="pred7" onclick = "pred7()"></div>
+     <div class="btn" id="pred8" onclick = "pred8()"></div>
+ </div> 
+<div id="buttons5">
+    <div class="btn" id="obl1" onclick = "obl1()"></div>
+    <div class="btn" id="obl2" onclick = "obl2()"></div>
+    <div style="background-color: black;" class="btn" id="sng" onclick = "sneg()"></div>
+    <div style="background-color: black;" class="btn" id="lght" onclick = "light()"></div>
+    
+    <div class="btn" id="zvd" onclick = "zvd()"></div>
+    <div class="btn" id="fire1" onclick = "fire1()"></div>
+    <div class="btn" id="portal" onclick = "portal()"></div>
+    <div class="btn" id="fire2" onclick = "fire2()"></div>
+    <div class="btn" id="piter" onclick = "piter()"></div>
+    <div class="btn" id="sal" onclick = "sal()"></div>
+</div>
+<div id="buttons4">
+<div class="btn" id="txt" onclick = "text()"></div>
+<div class="btn" id="cvet"><input style="position: relative; margin-top: 15px;" id="opred" class="color-picker" type="color" /></div>
+<div class="btn" id="shrift"><input style="position: relative; transform: scaleX(0.4); margin-top: 20px; margin-left: -35px;" id="range" type="range" min="14" max="100" step="1" value="50"> </div>
+</div>
+<div id="buttons2">
+   <div class="btn" id="fon1" onclick = "fon1()"></div>
+   <div class="btn" id="fon2" onclick = "fon2()"></div>
+   <div class="btn" id="fon3" onclick = "fon3()"></div>
+   <div class="btn" id="fon4" onclick = "fon4()"></div>
+   <div class="btn" id="fon5" onclick = "fon5()"></div>
+   <div class="btn" id="fon6" onclick = "fon6()"></div>
+   <div class="btn" id="fon7" onclick = "fon7()"></div>
+   <div class="btn" id="fon8" onclick = "fon8()"></div>
+   <div class="btn" id="fon9" onclick = "fon9()"></div>
+   <div class="btn" id="fon10" onclick = "fon10()"></div>
+   <div class="btn" id="fon11" onclick = "fon11()"></div>
+   <div class="btn" id="fon12" onclick = "fon12()"></div>
+   <div class="btn" id="fon13" onclick = "fon13()"></div>
+   <div class="btn" id="fon14" onclick = "fon14()"></div>
+   <div class="btn" id="fon15" onclick = "fon15()"></div>
+   <div class="btn" id="fon16" onclick = "fon16()"></div>
+   <div class="btn" id="fon17" onclick = "fon17()"></div>
+    
+</div>
+
+</div>
+ 
+<div id="stageApp">
+<button  onclick="window.open('https://vk.com/pipis_everyday')" id="vkBut">ГРУППА</button>
+<button onclick="window.open('https://vk.com/album-105503347_275367315')" id="vkBut1">АЛЬБОМ</button>
+</div>
+
+
+
+
+
+<script>
+  var div = document.getElementById('stageApp');
+ let app = new PIXI.Application({width: 977, height: 646});
+div.appendChild(app.view);
+    
+    let img = new PIXI.Sprite.from("pip.jpg");
+img.width = 977;
+img.height = 646;
+app.stage.addChild(img);
+    
+depthMap = new PIXI.Sprite.from("msk.jpg");
+app.stage.addChild(depthMap);
+     
+displacementFilter = new PIXI.filters.DisplacementFilter(depthMap);
+app.stage.filters = [displacementFilter];
+    
+window.onmousemove = function(e) {
+displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) /20;
+displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) /20;
+};
+ 
+ </script> 
+   
+    
+    
+<script>
+        function cptr(){
+domtoimage.toBlob(document.getElementById('supreme'))
+    .then(function (blob) {
+        window.saveAs(blob, 'gomiks.png');
+    });
+        }
+</script>
+    
+    
+<script>
+    
+        var isMouseDown=false;
+		var canvas = document.createElement('canvas');
+		var body = document.getElementsByTagName("body")[0];
+		var ctx = canvas.getContext('2d');
+        var sup = document.getElementById('supreme');
+		var linesArray = [];
+		currentSize = 3;
+		var currentColor = "rgb(1,1,1)";
+		var currentBg = "1.png";
+
+		// INITIAL LAUNCH
+
+		createCanvas();
+
+		canvas.addEventListener('mousedown', function() {mousedown(canvas, event);});
+		canvas.addEventListener('mousemove',function() {mousemove(canvas, event);});
+		canvas.addEventListener('mouseup',mouseup);
+
+		// CREATE CANVAS
+
+		function createCanvas() {
+			canvas.id = "canvas1";
+			canvas.width = 300;
+			canvas.height = 100;
+			canvas.style.zIndex = 800;
+			canvas.style.position = "absolute";
+			canvas.style.background.url = "imya.png";
+			sup.appendChild(canvas);
+		}
+
+
+		// GET MOUSE POSITION
+
+		function getMousePos(canvas, evt) {
+			var rect = canvas.getBoundingClientRect();
+			return {
+				x: evt.clientX - rect.left,
+				y: evt.clientY - rect.top
+			};
+		}
+
+		// ON MOUSE DOWN
+
+		function mousedown(canvas, evt) {
+			var mousePos = getMousePos(canvas, evt);
+			isMouseDown=true
+			var currentPosition = getMousePos(canvas, evt);
+			ctx.moveTo(currentPosition.x, currentPosition.y)
+			ctx.beginPath();
+			ctx.lineWidth  = currentSize;
+			ctx.lineCap = "round";
+			ctx.strokeStyle = currentColor;
+
+		}
+
+		// ON MOUSE MOVE
+
+		function mousemove(canvas, evt) {
+
+			if(isMouseDown){
+				var currentPosition = getMousePos(canvas, evt);
+				ctx.lineTo(currentPosition.x, currentPosition.y)
+				ctx.stroke();
+				store(currentPosition.x, currentPosition.y, currentSize, currentColor);
+			}
+		}
+
+		// STORE DATA
+
+		function store(x, y, s, c) {
+			var line = {
+				"x": x,
+				"y": y,
+				"size": s,
+				"color": c
+			}
+			linesArray.push(line);
+		}
+
+		// ON MOUSE UP
+
+		function mouseup() {
+			isMouseDown=false
+			store()
+		}
+    
+
+
+
+
+
+</script>
+    
+
+    
+    <!--<script>
+
+
+     var k = 0;
+     let par = document.getElementsByClassName('draggable hydrated selected drag');
+       function flip(){
+        let child = par.children;
+        console.log('flipped'); 
+        console.log(par);
+        console.log(k);
+           k +=180;
+           //child.style.transform = "rotatey(" + k + "deg)";
+           //parent.style.transitionDuration = "0.5s";
+          
+};   
+    
+    </script>-->
+   
+ 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.js"></script>
+
+    
+<script>
+    
+    function remove(me) {
+        var del = document.getElementById("me");
+  document.getElementById(me).outerHTML = ""
+}
+</script>  
+
+    
+<script>
+    
+function uuidv4() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
+//console.log(uuidv4());
+        
+function uuidv3() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
+</script>
+     
+
+</body>
+
+</html>

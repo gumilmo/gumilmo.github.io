@@ -1,0 +1,701 @@
+:root{
+    --col: green;
+}
+
+::-webkit-scrollbar-track {
+display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 10px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background-color: rgba(230, 44, 49, 1);
+}
+
+::-webkit-scrollbar{
+width: 11px;
+height: 5px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+      background-color: rgba(230, 44, 49, 1.4); 
+     transition: 0.4s linear;
+    }
+h1{
+    margin-top: 100px;
+    width: 600px;
+    margin-left: 52px;
+}
+
+#unknown{
+    background: url('un.png');
+}
+
+
+#ulibochky{
+    margin-left: 780px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-family: helvetica;
+    height: 70px;
+    width: 200px;
+    background-color: #007549; 
+        -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+#ulibochky:hover{
+    background-color: #029664; 
+    transition: 0.2s linear;
+}
+#ulibochky1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -200px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-family: helvetica;
+    height: 70px;
+    width: 200px;
+    background-color: #2448e9; 
+        -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+#ulibochky1:hover{
+    background-color: #290296; 
+    transition: 0.2s linear;
+}
+
+
+
+.imya{
+    transform: translateY(760px);
+    border-radius: 10px;
+    text-align: center;
+    font-family: helvetica;
+    color: white;
+    margin-left: 245px;
+    width: 250px;
+    height: 70px;
+    cursor: pointer;
+     background: url("zovut.png");
+}
+#canvas1{
+    left: 220px;
+    top: 690px;
+    border-radius: 10px;
+    background-color: #fff;
+    background: url("imya.PNG");
+}
+#canvas1:hover{
+    cursor: url('krug.png'), auto;
+}
+.all{
+    height: 700px;
+    width: 700px;
+    background-color: #FDE9CE;
+    transform: translateX(400px);
+    position: absolute;
+}
+
+
+.btn{
+    cursor: pointer;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    align-content: center;
+    text-align: center;
+}
+#colorText{
+    border-radius: 10px;
+}
+
+#buttons1{
+    opacity: 0.3;
+    border-radius: 5px;
+    overflow: scroll;
+    width: 100px;
+    height: 700px;
+    background-color: rgba(204, 204, 204, 0.05);
+    float: right;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+
+}
+#buttons1:hover{
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+#buttons2{
+    opacity: 0.3;
+    border-radius: 5px;
+    overflow: scroll;
+    width: 100px;
+    height: 700px;
+    background-color: rgba(204, 204, 204, 0.05);
+    float: right;
+    transform: translateX(80px);
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+
+}
+#buttons2:hover{
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+#buttons3{
+    opacity: 0.3;
+    border-radius: 5px;
+    overflow: scroll;
+    width: 100px;
+    height: 700px;
+    background-color: rgba(204, 204, 204, 0.05);
+    float: right;
+    margin-left: 20px;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+
+}
+#buttons3:hover{
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+#buttons4{
+    transform: translateX(95px);
+    opacity: 0.3;
+    border-radius: 5px;
+    overflow: scroll;
+    width: 100px;
+    height: 240px;
+    background-color: rgba(204, 204, 204, 0.05);
+    float: right;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+
+}
+#buttons4:hover{
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+#buttons5{
+    transform: translateY(260px);
+    opacity: 0.3;
+    border-radius: 5px;
+    overflow: scroll;
+    width: 100px;
+    height: 440px;
+    background-color: rgba(204, 204, 204, 0.05);
+    float: right;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+
+}
+#buttons5:hover{
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+textarea{
+    resize: none;
+    font-family: Impact;
+    text-decoration: none;
+    background: url('nobg.png') repeat;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: none;
+    border: 0px;
+}
+.textCl{
+    color: yellow;
+}
+
+
+.tutgif{
+    transform: scale(0.8);
+}
+.tutph{
+    transform: scale(0.4); 
+    margin-top: -200px;
+    margin-left: -40px;
+}
+.lastp{
+    margin-top: -280px;
+}
+
+
+#txt{
+    background: url('txt.png');
+}
+#cvet{
+    background-color: #146B3A;
+}
+#shrift{
+    background-color: #146B3A;
+}
+
+
+
+
+#pipis1{
+    background: url('pip/1.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis2{
+    background: url('pip/2.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis3{
+    background: url('pip/3.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis4{
+    background: url('pip/4.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis5{
+    background: url('pip/5.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis6{
+    background: url('pip/6.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis7{
+    background: url('pip/7.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis8{
+    background: url('pip/8.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis9{
+    background: url('pip/9.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis10{
+    background: url('pip/19.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis11{
+    background: url('pip/11.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis12{
+    background: url('pip/12.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis13{
+    background: url('pip/13.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis14{
+    background: url('pip/14.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis15{
+    background: url('pip/15.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis16{
+    background: url('pip/16.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis17{
+    background: url('pip/17.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis18{
+    background: url('pip/18.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#shp1{
+    background: url('shp/1.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp2{
+    background: url('shp/2.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp3{
+    background: url('shp/3.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp4{
+    background: url('shp/4.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp5{
+    background: url('shp/5.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp6{
+    background: url('shp/6.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp7{
+    background: url('shp/7.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp8{
+    background: url('shp/8.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp9{
+    background: url('shp/9.png');
+    background-position: center;
+    background-size: cover;
+}
+#shp10{
+    background: url('shp/10.png');
+    background-position: center;
+    background-size: cover;
+}
+#pred1{
+    background: url('shp/11.png');
+    background-position: center;
+    background-size: cover;
+}
+#pred2{
+    background: url('shp/22.png');
+    background-position: center;
+    background-size: cover;
+}
+#pred3{
+    background: url('shp/33.png');
+    background-position: center;
+    background-size: cover;
+}
+#pred4{
+    background: url('shp/44.png');
+    background-position: center;
+    background-size: cover;
+}
+#pred5{
+    background: url('shp/55.png');
+    background-position: center;
+    background-size: cover;
+}
+#pred6{
+    background: url('shp/h.png');
+    background-position: center;
+    background-size: cover;
+}
+#pred7{
+    background: url('shp/77.png');
+    background-position: center;
+    background-size: cover;
+}
+#pred8{
+    background: url('shp/88.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+#obl1{
+    background: url('fx/1.png');
+    background-position: center;
+    background-size: cover;
+}
+#obl2{
+    background: url('fx/2.png');
+    background-position: center;
+    background-size: cover;
+}
+#sng{
+    background: url('fx/3.png');
+    background-position: center;
+    background-size: cover;
+}
+#lght{
+    background: url('fx/4.png');
+    background-position: center;
+    background-size: cover; 
+}
+#zvd{
+    background: url('fx/5.png');
+    background-position: center;
+    background-size: cover;  
+}
+#fire1{
+    background: url('fx/6.png');
+    background-position: center;
+    background-size: cover;
+}
+#portal{
+    background: url('fx/7.png');
+    background-position: center;
+    background-size: cover;
+}
+#fire2{
+    background: url('fx/8.png');
+    background-position: center;
+    background-size: cover;
+}
+#piter{
+    background: url('fx/9.png');
+    background-position: center;
+    background-size: cover;    
+}
+#sal{
+    background: url('fx/10.png');
+    background-position: center;
+    background-size: cover;    
+}
+
+
+
+
+
+#fon1{
+    background: url('bg/1.png');
+    background-position: center;
+    background-size: cover;
+}
+#fon2{
+    background: url('bg/2.png');
+    background-position: center;
+    background-size: cover;
+}
+#fon3{
+    background: url('bg/3.png');
+    background-position: center;
+    background-size: cover;
+}
+#fon4{
+    background: url('bg/4.PNG');
+    background-position: center;
+    background-size: cover;
+}
+#fon5{
+    background: url('bg/5.PNG');
+    background-position: center;
+    background-size: cover;
+}
+#fon6{
+    background: url('bg/6.PNG');
+    background-position: center;
+    background-size: cover;
+}
+#fon7{
+    background: url('bg/7.PNG');
+    background-position: center;
+    background-size: cover;
+}
+#fon8{
+    background: url('bg/8.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#fon9{
+    background: url('bg/9.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#fon10{
+    background: url('bg/10.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#fon11{
+    background: url('bg/11.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#fon12{
+    background: url('bg/12.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#fon13{
+    background: url('bg/13.PNG');
+    background-position: center;
+    background-size: cover;
+}
+#fon14{
+    background: url('bg/14.PNG');
+    background-position: center;
+    background-size: cover;
+}
+#fon15{
+    background: url('bg/15.PNG');
+    background-position: center;
+    background-size: cover;
+}
+#fon16{
+    background: url('bg/16.PNG');
+    background-position: center;
+    background-size: cover;
+}
+#fon17{
+    background: url('bg/17.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+#stageApp{
+    border-radius: 0;
+    margin-top: 900px;
+    height: 646px;
+    width: 100%;
+    position: relative;
+    background-color: #22211d;
+    background-image: url('bgUnd.png');
+    background-position: 40vw;
+}
+#vkBut{
+    position: absolute;
+    margin-left: 780px;
+    font-size: 24px;
+    color: #fff;
+    font-family: helvetica;
+    margin-left: 1100px;
+    margin-top: 80px;
+    height: 93px;
+    width: 300px;
+    background-color: #3666cf; 
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+#vkBut:hover{
+background-color: #2c55af; 
+transition: 0.2s linear;
+}
+#vkBut1{
+    position: absolute;
+    margin-left: 780px;
+    font-size: 24px;
+    color: #fff;
+    font-family: helvetica;
+    margin-left: 1100px;
+    margin-top: 280px;
+    height: 93px;
+    width: 300px;
+    background-color: #3666cf; 
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+#vkBut1:hover{
+background-color: #2c55af; 
+transition: 0.2s linear;
+}
+
+
+
+@media only screen and (min-width : 1200px) and (max-width : 1529px) {
+        #menu{
+            margin-left: -400px;
+        }
+        #ulibochky, #ulibochky1{
+            transform: translateX(320px);
+        }
+}
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    #menu{
+    position: absolute;
+    margin-left: 510px;
+    margin-top: -1000px;;
+    }
+    #gomiks{
+     transform: translateY(-1000px);
+    }
+    #ulibochky1{
+        transform: translateX(-520px);
+    }
+    #ulibochky{
+        transform: translateX(-520px);
+        margin-top: 200px;
+    }
+
+}
+@media only screen and (min-width : 640px) and (max-width : 767px) {
+    #menu{
+        position: absolute;
+        margin-left: 510px;
+        margin-top: -1000px;;
+        }
+    #gomiks{
+            transform: translateY(-860px);
+           }
+    #ulibochky1{
+            transform: translateX(-520px);
+        }
+    #ulibochky{
+            transform: translateX(-520px);
+            margin-top: 200px;
+        }
+}
+@media only screen and (min-width : 480px) and (max-width : 639px) {
+    #menu{
+        position: absolute;
+        margin-left: 510px;
+        margin-top: -1000px;;
+        }
+    #gomiks{
+            transform: translateY(-860px);
+           }
+    #ulibochky1{
+            transform: translateX(-520px);
+        }
+    #ulibochky{
+            transform: translateX(-520px);
+            margin-top: 200px;
+        }
+    }
