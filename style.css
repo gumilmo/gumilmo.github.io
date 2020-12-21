@@ -347,6 +347,11 @@ textarea{
     background-position: center;
     background-size: cover;
 }
+#pipis18{
+    background: url('pip/mc.png');
+    background-position: center;
+    background-size: cover;
+}
 
 
 
@@ -493,6 +498,16 @@ textarea{
 }
 #sal{
     background: url('fx/10.png');
+    background-position: center;
+    background-size: cover;    
+}
+#shum{
+    background: url('fx/11.png');
+    background-position: center;
+    background-size: cover;    
+}
+#urodi{
+    background: url('fx/12.png');
     background-position: center;
     background-size: cover;    
 }
