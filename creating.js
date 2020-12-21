@@ -333,7 +333,7 @@ function shapk2() {
                 var parent = document.createElement('deckgo-drr');  
                 var img = document.createElement('img');
                 element.appendChild(parent);
-                parent.style = "--width: 70px; --height: 70px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.style = "--width: 170px; --height: 70px; --top: 100px; --left: 100px; z-index: 100;";
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
