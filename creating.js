@@ -324,6 +324,23 @@ function pipis18() {
                 parent.append(img);
                 
             }
+function pipis19() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 170px; --height: 290px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("ondblclick","remove(this.id)");
+                //parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "pip/mc.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
 
 
 /////////////shapki i predmeti
@@ -792,6 +809,43 @@ function piter() {
                 //parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "fx/9.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+function shum() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 350px; --height: 350px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());;
+                parent.setAttribute("rotation","false");
+                parent.setAttribute("ondblclick","remove(this.id)");
+                //parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "fx/11.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+function urodi() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 350px; --height: 250px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("resize","false");
+                parent.setAttribute("rotation","false");
+                parent.setAttribute("ondblclick","remove(this.id)");
+                //parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "fx/12.png";
                 img.setAttribute("id",uuidv3(this.id));
                 parent.append(img);
                 
