@@ -1,4 +1,22 @@
 ////////////////PIPISI
+function pipis() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 170px; --height: 170px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("ondblclick","remove(this.id)");
+                parent.setAttribute("onclick","flip()");
+                //parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "pip/pip.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            } 
 function pipis1() {  
                 var element = document.getElementById("supreme");
                 // creating button element  
@@ -165,7 +183,7 @@ function pipis10() {
                 parent.setAttribute("ondblclick","remove(this.id)");
                 //parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
-                img.src = "pip/9.png";
+                img.src = "pip/19.png";
                 img.setAttribute("id",uuidv3(this.id));
                 parent.append(img);
                 
