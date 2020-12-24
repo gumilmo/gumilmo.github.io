@@ -751,6 +751,10 @@ transition: 0.2s linear;
         #ulibochky, #ulibochky1{
             transform: translateX(320px);
         }
+            #buttonSpecial{
+            width: 200px;
+            transform: translateX(360px);
+        }
 }
 @media only screen and (min-width : 768px) and (max-width : 1023px) {
     #menu{
