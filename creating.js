@@ -62,7 +62,7 @@ function pipis3() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/3.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -79,7 +79,7 @@ function pipis4() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/4.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -96,7 +96,7 @@ function pipis5() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/5.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -113,7 +113,7 @@ function pipis6() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/6.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -130,7 +130,7 @@ function pipis7() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/7.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -147,7 +147,7 @@ function pipis8() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/8.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -164,7 +164,7 @@ function pipis9() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/9.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -181,7 +181,7 @@ function pipis10() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/19.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -198,7 +198,7 @@ function pipis11() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/11.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -215,7 +215,7 @@ function pipis12() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/12.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -232,7 +232,7 @@ function pipis13() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/13.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -249,7 +249,7 @@ function pipis14() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/14.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -266,7 +266,7 @@ function pipis15() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/15.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -283,7 +283,7 @@ function pipis16() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/16.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -300,7 +300,7 @@ function pipis17() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/17.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -317,7 +317,7 @@ function pipis18() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/18.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -334,9 +334,78 @@ function pipis19() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "pip/mc.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+    function pipis20() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 200px; --height: 200px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("ondblclick","remove(this.id)");
+                parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "pip/20.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+
+            function pipis21() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 200px; --height: 200px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("ondblclick","remove(this.id)");
+                parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "pip/21.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+            function pipis22() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 200px; --height: 200px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("ondblclick","remove(this.id)");
+                parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "pip/22.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+            function pipis23() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 170px; --height: 250px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("ondblclick","remove(this.id)");
+                parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "pip/23.png";
                 img.setAttribute("id",uuidv3(this.id));
                 parent.append(img);
                 
@@ -354,7 +423,7 @@ function shapk1() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/1.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -372,7 +441,7 @@ function shapk2() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/2.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -390,7 +459,7 @@ function shapk3() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/3.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -407,7 +476,7 @@ function shapk4() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/4.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -424,7 +493,7 @@ function shapk5() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/5.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -441,7 +510,7 @@ function shapk6() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/6.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -458,7 +527,7 @@ function shapk7() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/7.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -475,7 +544,7 @@ function shapk8() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/8.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -492,7 +561,7 @@ function shapk9() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/9.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -509,7 +578,7 @@ function shapk10() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/10.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -526,7 +595,7 @@ function pred1() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "shp/11.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -666,7 +735,7 @@ function obl1() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "fx/1.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -683,7 +752,7 @@ function obl2() {
                 parent.unit = "px";
                 parent.setAttribute("id",uuidv4());
                 parent.setAttribute("ondblclick","remove(this.id)");
-                //parent.setAttribute("onclick","flip()");
+                parent.setAttribute("onclick","flip()");
                 //onclick="flip()" для тэга
                 img.src = "fx/2.png";
                 img.setAttribute("id",uuidv3(this.id));
@@ -813,6 +882,7 @@ function piter() {
                 parent.append(img);
                 
             }
+            
 function shum() {  
                 var element = document.getElementById("supreme");
                 // creating button element  
@@ -868,6 +938,64 @@ function urodi() {
                 
             }
 
+
+function narut() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 350px; --height: 350px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("resize","false");
+                parent.setAttribute("rotation","false");
+                parent.setAttribute("ondblclick","remove(this.id)");
+                //parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "fx/13.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+function trah() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 350px; --height: 350px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("resize","false");
+                parent.setAttribute("rotation","false");
+                parent.setAttribute("ondblclick","remove(this.id)");
+                //parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "fx/14.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+function bull() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 350px; --height: 350px; --top: 100px; --left: 100px; z-index: 100;";
+                parent.unit = "px";
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("resize","false");
+                parent.setAttribute("rotation","false");
+                parent.setAttribute("ondblclick","remove(this.id)");
+                //parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "fx/15.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
 ////////TEXT
 function text() {  
                 var color = document.getElementById("opred");
@@ -1230,3 +1358,101 @@ function fon17() {
                 parent.append(img);
                 
             }
+function fon18() {  
+                var element = document.getElementById("supreme");
+                // creating button element  
+                var parent = document.createElement('deckgo-drr');  
+                var img = document.createElement('img');
+                element.appendChild(parent);
+                parent.style = "--width: 350px; --height: 350px; --top: 100px; --left: 100px; z-index: 2";
+                parent.unit = "px";
+                parent.setAttribute("rotation","false");
+                parent.setAttribute("resize","false");
+                parent.setAttribute("id",uuidv4());
+                parent.setAttribute("ondblclick","remove(this.id)");
+                //parent.setAttribute("onclick","flip()");
+                //onclick="flip()" для тэга
+                img.src = "bg/18.png";
+                img.setAttribute("id",uuidv3(this.id));
+                parent.append(img);
+                
+            }
+
+
+/////RAMKIIIIIIIII////////////////////
+function ram1() {  
+    var element = document.getElementById("supreme");
+    // creating button element  
+    var parent = document.createElement('deckgo-drr');  
+    var img = document.createElement('img');
+    element.appendChild(parent);
+    parent.style = "--width: 700px; --height: 700px; --top: 0px; --left: 0px; z-index: 200";
+    parent.unit = "px";
+    parent.setAttribute("rotation","false");
+    parent.setAttribute("resize","false");
+    parent.setAttribute("id",uuidv4());
+    parent.setAttribute("ondblclick","remove(this.id)");
+    //parent.setAttribute("onclick","flip()");
+    //onclick="flip()" для тэга
+    img.src = "ram/1.png";
+    img.setAttribute("id",uuidv3(this.id));
+    parent.append(img);
+    
+}
+function ram2() {  
+    var element = document.getElementById("supreme");
+    // creating button element  
+    var parent = document.createElement('deckgo-drr');  
+    var img = document.createElement('img');
+    element.appendChild(parent);
+    parent.style = "--width: 700px; --height: 700px; --top: 0px; --left: 0px; z-index: 200";
+    parent.unit = "px";
+    parent.setAttribute("rotation","false");
+    parent.setAttribute("resize","false");
+    parent.setAttribute("id",uuidv4());
+    parent.setAttribute("ondblclick","remove(this.id)");
+    //parent.setAttribute("onclick","flip()");
+    //onclick="flip()" для тэга
+    img.src = "ram/2.png";
+    img.setAttribute("id",uuidv3(this.id));
+    parent.append(img);
+    
+}
+function ram3() {  
+    var element = document.getElementById("supreme");
+    // creating button element  
+    var parent = document.createElement('deckgo-drr');  
+    var img = document.createElement('img');
+    element.appendChild(parent);
+    parent.style = "--width: 700px; --height: 700px; --top: 0px; --left: 0px; z-index: 200";
+    parent.unit = "px";
+    parent.setAttribute("rotation","false");
+    parent.setAttribute("resize","false");
+    parent.setAttribute("id",uuidv4());
+    parent.setAttribute("ondblclick","remove(this.id)");
+    //parent.setAttribute("onclick","flip()");
+    //onclick="flip()" для тэга
+    img.src = "ram/3.png";
+    img.setAttribute("id",uuidv3(this.id));
+    parent.append(img);
+    
+}
+function ram4() {  
+    var element = document.getElementById("supreme");
+    // creating button element  
+    var parent = document.createElement('deckgo-drr');  
+    var img = document.createElement('img');
+    element.appendChild(parent);
+    parent.style = "--width: 700px; --height: 700px; --top: 0px; --left: 0px; z-index: 200";
+    parent.unit = "px";
+    parent.setAttribute("rotation","false");
+    parent.setAttribute("resize","false");
+    parent.setAttribute("id",uuidv4());
+    parent.setAttribute("ondblclick","remove(this.id)");
+    //parent.setAttribute("onclick","flip()");
+    //onclick="flip()" для тэга
+    img.src = "ram/4.png";
+    img.setAttribute("id",uuidv3(this.id));
+    parent.append(img);
+    
+}

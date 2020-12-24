@@ -1,6 +1,8 @@
 <html lang="en">
 
 <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ПИПИС ЧУДО-ГОМИКС 2021</title>
@@ -29,7 +31,8 @@
 			<div id="slider">
 				<div class="slide"><h1>Тише тише, эта штука обязана научить тебя пользоваться данным конструктором гомиксов!Окей погнали</h1></div>
 				<div class="slide"><img class="tutgif" src="tut/1.gif" width="700" height="456"><p>Для начала выбери фон из блока с фонами. Затем,расположи его как захочешь, но все мы понимаем если ты приличный человек, то сделаешь 4 блока</p></div>
-				<div class="slide"><img class="tutgif" src="tut/2.gif" width="500" height="300"><p id="bigP">Ты можешь удалить элемент двойным кликом по нему,можешь поворачивать удерживая за кружок,а можешь растягивать и изменять размер, и запомни вот что: каждый новый объект будет накалдываться поверх старого...Что ж, пора создать забавного птенца! Выбери pipis'ов и расположи их внутри блоков.Выбери шапку/предмет из соседнего раздела если хочешь их добавить.</p></div>
+        <div class="slide"><img class="tutgif" src="tut/2.gif" width="500" height="300"><p id="bigP">Ты можешь удалить элемент двойным кликом по нему,можешь поворачивать удерживая за кружок,а можешь растягивать и изменять размер, и запомни вот что: каждый новый объект будет накалдываться поверх старого...Что ж, пора создать забавного птенца! Выбери pipis'ов и расположи их внутри блоков.Выбери шапку/предмет из соседнего раздела если хочешь их добавить.</p></div>
+        <div class="slide"><img class="tutgif" src="tut/6.gif" width="500" height="300"><p id="bigP"><p>Чтобы отзеркалить объект сделай 2 медленных клика.Нет-нет не быстрых а медленных. Сначала один...потом другой..Не понял? давай еще раз. Сделай в отличии от удаления 2 медленных клика. Не понял? Давай еще раз. Сделай два ме</p></div>
 				<div class="slide"><img class="tutgif" src="tut/3.gif" width="500" height="300"><p>Всем давно известно что pipis умеет говорить. Выбери рамку для текста и помести тому цыпленку, что собирается сказать, а в разделе текста ты можешь выбрать цвет и размер шрифта, на смотри!</p></div>
 				<div class="slide"><img src="tut/4.png" width="119" height="478"><p>Ты можешь добавить различные эффекты.</p></div>
 				<div class="slide"><img src="tut/5.gif" width="570" height="204"><p>А как люди узнают что это сделал ты? Не волнуйся, просто распишись под гомиксом. Как как тебя зовут? Алё-шень-ка? ...А ты нечаяно ошибся тебя зовут не Алёшенька а Подрочи!? Не беда, ты можешь исправить свое имя нажав на "КАК ТЕБЯ ЗОВУТ"</p></div>
@@ -50,6 +53,12 @@
 <div id="menu">
     <button id="ulibochky" onclick="cptr()" id="capture">УЛЫБОЧКУ</button>
     <button onclick="togglePopup()" id="ulibochky1">#ЯНЕТУПОЙ</button>
+<div id="buttonSpecial">
+  <div class="btnSP" id="ram1" onclick = "ram1()"></div>
+  <div class="btnSP" id="ram2" onclick = "ram2()"></div>
+  <div class="btnSP" id="ram3" onclick = "ram3()"></div>
+  <div class="btnSP" id="ram4" onclick = "ram4()"></div>
+</div>
 
  <div id="buttons1">
     <div class="btn" id="pipis0" onclick = "pipis()"></div>
@@ -73,6 +82,10 @@
      <div class="btn" id="pipis17" onclick = "pipis17()"></div>
      <div class="btn" id="pipis18" onclick = "pipis18()"></div>
      <div class="btn" id="pipis19" onclick = "pipis19()"></div>
+     <div class="btn" id="pipis20" onclick = "pipis20()"></div>
+     <div class="btn" id="pipis21" onclick = "pipis21()"></div>
+     <div class="btn" id="pipis22" onclick = "pipis22()"></div>
+     <div class="btn" id="pipis23" onclick = "pipis23()"></div>
  </div>  
  <div id="buttons3">   
      <div class="btn" id="shp1" onclick = "shapk1()"></div>
@@ -109,6 +122,9 @@
     <div class="btn" id="sal" onclick = "sal()"></div>
     <div class="btn" id="shum" onclick = "shum()"></div>
     <div class="btn" id="urodi" onclick = "urodi()"></div>
+    <div class="btn" id="narut" onclick = "narut()"></div>
+    <div class="btn" id="trah" onclick = "trah()"></div>
+    <div style="background-color: black;" class="btn" id="bull" onclick = "bull()"></div>
 </div>
 <div id="buttons4">
 <div class="btn" id="txt" onclick = "text()"></div>
@@ -133,6 +149,7 @@
    <div class="btn" id="fon15" onclick = "fon15()"></div>
    <div class="btn" id="fon16" onclick = "fon16()"></div>
    <div class="btn" id="fon17" onclick = "fon17()"></div>
+   <div class="btn" id="fon18" onclick = "fon18()"></div>
     
 </div>
 
@@ -144,7 +161,16 @@
 </div>
 
 
-
+<script>
+  var par = $('deckgo-drr')
+  var k = 0;
+  function flip(){
+    $('deckgo-drr').on("click", function() {
+    k +=180;
+$(this).children('img').css( 'transform', "rotatey(" + k + "deg)" );
+});
+}
+</script>
 
 
 <script>

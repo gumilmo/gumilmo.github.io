@@ -70,7 +70,53 @@ h1{
     transition: 0.2s linear;
 }
 
+#buttonSpecial{
+    overflow: scroll;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    height: 500px;
+    width: 300px;
+    opacity: 0.3;
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 130px;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+}
+#buttonSpecial:hover{
+    opacity: 1;
+    transition: 0.4s ease;
+}
 
+.btnSP{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(50, 51, 97)
+}
+#ram1{
+    background: url('ram/1.png');
+    background-position: center;
+    background-size: cover;
+}
+#ram2{
+    background: url('ram/2.png');
+    background-position: center;
+    background-size: cover;
+}
+#ram3{
+    background: url('ram/3.png');
+    background-position: center;
+    background-size: cover;
+}
+#ram4{
+    background: url('ram/4.png');
+    background-position: center;
+    background-size: cover;
+}
 
 .imya{
     transform: translateY(760px);
@@ -352,6 +398,26 @@ textarea{
     background-position: center;
     background-size: cover;
 }
+#pipis20{
+    background: url('pip/20.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis21{
+    background: url('pip/21.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis22{
+    background: url('pip/22.png');
+    background-position: center;
+    background-size: cover;
+}
+#pipis23{
+    background: url('pip/23.png');
+    background-position: center;
+    background-size: cover;
+}
 
 
 
@@ -511,6 +577,21 @@ textarea{
     background-position: center;
     background-size: cover;    
 }
+#narut{
+    background: url('fx/13.png');
+    background-position: center;
+    background-size: cover;    
+}
+#trah{
+    background: url('fx/14.png');
+    background-position: center;
+    background-size: cover;    
+}
+#bull{
+    background: url('fx/15.png');
+    background-position: center;
+    background-size: cover;    
+}
 
 
 
@@ -598,6 +679,11 @@ textarea{
 }
 #fon17{
     background: url('bg/17.png');
+    background-position: center;
+    background-size: cover;
+}
+#fon18{
+    background: url('bg/18.png');
     background-position: center;
     background-size: cover;
 }
